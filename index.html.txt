@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transaction Portal</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f7;
+  }
+
+  .header {
+    background: #1e2a38;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+
+  .card {
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .amount {
+    font-size: 32px;
+    color: #1e7a4d;
+    font-weight: bold;
+  }
+
+  .status {
+    padding: 6px 12px;
+    background: #fff4e5;
+    color: #cc7a00;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Secure Transaction Portal</h1>
+  <div>User Dashboard</div>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Transaction Summary</h3>
+    <p class="amount">$75,000.00</p>
+    <span class="status">Pending Clearance</span>
+  </div>
+
+  <div class="card">
+    <h3>Details</h3>
+    <p><strong>Reference:</strong> 754</p>
+    <p><strong>Method:</strong> ACH Transfer</p>
+    <p><strong>Date:</strong> 2026-04-26</p>
+  </div>
+
+  <div class="card">
+    <h3>Receipt Preview</h3>
+    <img src="receipt.png" alt="Receipt">
+  </div>
+
+  <div class="footer">
+    Demo interface — not a real banking system
+  </div>
+
+</div>
+
+</body>
+</html>
